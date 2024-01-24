@@ -1,0 +1,300 @@
+*
+{margin: auto;}
+body 
+{
+    overflow-x: hidden;
+}
+header
+{
+    background-color: rgb(237, 160, 174);
+    width: 100%;
+    margin: auto;
+}
+header h1
+{
+    margin: 10px 400px;
+    display: block;
+    font-size: 40px;
+    color: rgb(189, 69, 91);
+    font-style: normal;
+    font-weight: bolder;
+}
+header nav
+{
+    width: 100%;
+    margin-left: 250px;
+    padding-bottom: 10px;
+}
+header nav a
+{
+    width: 170px;
+    font-size: 16px ;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: solid white 1px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#menu_actuel
+{
+    background-color: rgb(225, 162, 173);
+}
+main
+{
+    background-color: rgb(243, 209, 215);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px ;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+main h1
+{
+    font-size: 30px;
+    color: rgb(189, 69, 91);;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#biographie
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    border-collapse: collapse;
+}
+td 
+{
+    border: solid 3px; 
+    border-color: whitesmoke;
+    width: 300px;
+    font-size: 18px;
+}
+.intro
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+    width: 900px;
+}
+#profile
+{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 50%;
+}
+#ai
+{
+    font-size: 30px;
+    color: rgb(189, 69, 91);
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+#Informatios
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tab
+{
+    border: solid 3px; 
+    border-radius: 50px;
+    border-color: whitesmoke;
+    width: 25%;
+    font-size: 18px;
+    padding: 10px;
+    vertical-align: top;
+}
+h2
+{
+    font-size: 25px;
+    color: rgb(231, 57, 89);
+    font-style: normal;
+    font-weight: bold;
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 20px;   
+    margin: 0px 30px;
+}
+#mail
+{
+    margin: 50px 550px;
+    border: solid 5px whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px rgb(119, 46, 59);
+}
+#IIT
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 100px;
+    border: solid 5px whitesmoke;
+    box-shadow: 5px 10px 5px rgb(119, 46, 59);
+}
+#IITCAMPUS
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid 5px whitesmoke;
+    box-shadow: 5px 10px 5px rgb(119, 46, 59);
+}
+#social
+{
+    margin: 50px 50px;
+    border: solid 5px whitesmoke;
+    box-shadow: 5px 10px 5px rgb(119, 46, 59);
+}
+form
+{
+    margin: 0px 30px;
+}
+#question
+{
+    margin: 5px 0px;
+}
+label
+{
+    margin: 10px 10px;
+}
+#boutton
+{
+    border: solid 3px; 
+    border-color: whitesmoke;
+    width: 300px;
+    font-size: 18px;
+    margin: 10px 550px;
+}
+footer 
+{
+    background-color: rgb(237, 160, 174);
+    width: 100%;
+    margin: auto;
+}
+footer h1
+{
+    font-size: 30px;
+    color: rgb(189, 69, 91);
+    font-style: normal;
+    font-weight: bold;   
+    margin-left: 20px;
+}
+footer nav
+{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+footer nav a
+{
+    padding: 10px 10px;
+    border: solid white 1px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.espace-vide 
+{
+    height: 170px;
+}
+@media only screen and (max-width: 1000px)
+{
+    header
+    {
+        background-color:rgb(189, 69, 91);
+        color: black;
+        width: 100%;
+    }
+    header h1
+    {
+        margin: 0px 150px;
+        display: block;
+        font-size: 40px;
+        color: rgb(237, 160, 174);
+        font-style: normal;
+        font-weight: bolder;
+    }
+    header nav
+    {
+        width: 80%;
+        
+    }
+    main  
+    {
+        background-color: rgb(243, 209, 215);
+        color: black;
+        width: 100%;
+    }
+    #biographie
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 300px;
+        margin-right: 10px;
+        border-collapse: collapse;
+    }
+    main p
+    {
+        background-color: rgb(243, 209, 215);
+        color: black;
+    }
+    #IIT
+    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 200px;
+        margin-right: 100px;
+        border: solid 5px whitesmoke;
+        box-shadow: 5px 10px 5px rgb(119, 46, 59);
+    }
+    #mail
+    {
+        margin: 50px 400px;
+        border: solid 5px whitesmoke;
+        border-radius: 20px;
+        box-shadow: 5px 10px 5px rgb(119, 46, 59);
+    }
+    #boutton
+    {
+        border: solid 3px; 
+        border-color: whitesmoke;
+        width: 300px;
+        font-size: 18px;
+        margin: 10px 350px;
+    }
+    footer 
+    {
+        background-color: rgb(189, 69, 91);
+        color: black;
+        width: 100%;
+    }
+    footer h1
+    {
+        font-size: 30px;
+        color: rgb(237, 160, 174);
+        font-style: normal;
+        font-weight: bold;   
+        margin-left: 20px;
+    }
+}
